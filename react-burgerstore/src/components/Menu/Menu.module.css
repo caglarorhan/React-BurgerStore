@@ -1,0 +1,9 @@
+.Menu {
+    font-weight: bold;
+    color: #61dafb;
+}
+
+.Menu:hover{
+    color: white;
+    cursor:pointer;
+}
