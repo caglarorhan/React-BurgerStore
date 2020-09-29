@@ -40,6 +40,23 @@
     animation: enable 0.3s linear;
 }
 
+.ClearBurgerIngredientButton{
+    background-color: pink;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid red;
+    color: white;
+    font-family: inherit;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    box-shadow: 2px 2px 2px #966909;
+}
+.ClearBurgerIngredientButton:hover {
+    background-color: white;
+    border: 1px solid #966909;
+    color: red;
+}
+
 @keyframes enable {
     0% {
         transform: scale(1);
